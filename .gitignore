@@ -1,0 +1,13 @@
+﻿# Python: Carpetas y Archivos de Entornos Virtuales
+.venv/                  # La carpeta de tu entorno virtual local
+env/                    # Nombre alternativo común para entornos virtuales
+venv/
+__pycache__/            # Archivos binarios de caché de Python
+*.pyc                   # Archivos bytecode compilados
+
+# Jupyter Notebooks: Archivos temporales
+.ipynb_checkpoints/     # Puntos de guardado automáticos de Jupyter
+
+# Datos y logs
+*.log                   # Archivos de log
+/data                   # Si tienes una carpeta 'data' muy grande con datos que no deben subir
